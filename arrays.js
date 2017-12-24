@@ -1,19 +1,19 @@
-/* chocolateBars = "hat"
-//var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
+//chocolateBars = "hat"
+var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
 
-addElementToBeginningOfArray(array, element){
+function addElementToBeginningOfArray(array, element){
   return  [element, ...array];
 }
 
-destructivelyAddElementToBeginningOfArray(array, element){
+function destructivelyAddElementToBeginningOfArray(array, element){
   return array.unshift(element);
 }
 
-addElementToEndOfArray(array, element){
+function addElementToEndOfArray(array, element){
   return [...array, element];
 }
 
-destructivelyAddElementToEndOfArray(array, element){
+function destructivelyAddElementToEndOfArray(array, element){
   return array.push(element);
 }
-*/
+
