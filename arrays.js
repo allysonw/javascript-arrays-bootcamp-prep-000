@@ -7,3 +7,11 @@ addElementToBeginningOfArray(array, element){
 destructivelyAddElementToBeginningOfArray(array, element){
   return array.unshift(element)
 }
+
+addElementToEndOfArray(array, element){
+  return [...array, element]
+}
+
+destructivelyAddElementToEndOfArray(array, element){
+  return array.push(element)
+}
